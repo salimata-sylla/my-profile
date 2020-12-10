@@ -1,0 +1,133 @@
+body{
+	background-color: rgba(255,250,255,0.2);
+	color: rgb(87,87,87);
+	font-family: Helvetica;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 17px;
+
+}
+
+h1, h2,h3{
+	color:rgb(230,180,180);
+}
+
+h1{
+	font-size:(30px);
+	letter-spacing: 2px;
+	line-height: 1;
+}
+
+h2,h3{
+	font-weight: lighter;
+	font-size: 26px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(220,180,180);
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+a:hover{
+	color:rgba(120,120,120,0.7);
+}
+
+.container{
+	width: 900px;
+	margin: 20px auto;
+
+}
+
+.lightpink-card{
+	padding: 40px;
+	margin: 30px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	background-color: rgba(250,200,180,0.2);
+}
+
+.btn-pink{
+	background-color: rgb(220,180,180);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover{
+	background-color: rgb(210,210,210);
+	color : white;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(210,210,210);
+}
+
+.list-inline i:hover{
+	font-size: 40px;
+	color: rgb(180,180,180);
+}
+
+#PP{
+	border-radius:50%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+#introduction p{
+margin-bottom: 40px;
+
+}
+
+@media(max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media(max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
